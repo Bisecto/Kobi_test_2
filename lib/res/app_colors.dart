@@ -6,6 +6,7 @@ import '../utills/app_utils.dart';
 class AppColors{
 
 
+  static const Color backgroundColor =Color(0xFFF3F2F2);
   static const Color green =Color(0xFF4CAF50);
   static const Color orange =Color(0xFFFF9800);
   static const Color red =Color(0xFFF44336);
