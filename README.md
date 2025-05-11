@@ -58,6 +58,15 @@ for future updates.
 
 Would you like me to update the README with this version?
 
+## 🧱 How the APi works
+
+This app uses publicly hosted mock APIs from Mocki.io to simulate real backend interactions during
+development. Instead of relying on a live server, it makes HTTP requests to fixed URLs that return
+predefined JSON responses, allowing the app to behave as if it's connected to a real backend. The
+current mock endpoints include one for fetching merchant data and another for retrieving a list of
+transactions. This approach helps speed up development, ensures consistent data for testing, and
+avoids the need for a backend setup in the early stages of the project.
+
 ## 🧱 Project Structure
 
 The app follows a **clean architecture** structure to separate responsibilities:
